@@ -124,6 +124,11 @@ footer {
     transform: scale(1.2);
 }
 
+@media(max-width: 568px) {
+    .picture1, .picture1, .picture3 {
+        background-attachment:scroll;
+    }
+}
 
 
 
