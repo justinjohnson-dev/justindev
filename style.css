@@ -33,6 +33,16 @@ li {
     font-size: 40px;
 }
 
+.href-style {
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.href-style:hover {
+    color: white;
+}
+
 .picture1, .picture2, .picture3 {
     position: relative;
     opacity: .70; 
