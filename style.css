@@ -10,39 +10,66 @@ body, html {
 }
 
 .navbar {
-    display: inline-block;
-}
-
-li {
-    display: inline-block;
-    color: black;
-}
-
-.homerow {
-    position: absolute;
-}
-
-#name {
-    position: relative;
-    font-family: Asap, sans-serif;
-    text-align: left;
-    padding-left: 2.5%;
-    margin: 0;
-    font-weight: bold;
-    color: black;
-    font-size: 40px;
-}
-
-.href-style {
-    padding-left: 20px;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-family: Asap, sans-serif;
-}
-
-.href-style:hover {
+    height: 80px;
+    background-color: transparent;
+    border: none;
     color: white;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+}
+  
+.navbar-brand {
+    font-size: 40px;
+    font-family: Asap, sans-serif;
+    padding-top: 7%;
+}
+
+#navbar {
+    font-family: Asap, sans-serif;
+}
+
+.navbar-default .navbar-brand {
+    margin-top: 10px;
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    margin: 10px 5px 5px 5px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: black;
+}
+
+/* Past first section */
+
+.navbar.solid {
+    background-color: rgb(55, 150, 126);
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+}
+.navbar.solid .navbar-brand {
+    color: white;
+    transition: color 1s ease 0s;
+}
+.navbar.solid .navbar-nav > li > a {
+    color: white;
+    transition: color 1s ease 0s;
 }
 
 .picture1, .picture2, .picture3 {
@@ -141,6 +168,8 @@ footer {
         background-attachment:scroll;
     }
 }
+
+
 
 
 
