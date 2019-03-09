@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    color: black;
+}
+
+.homerow {
+    position: absolute;
+}
+
+#name {
+    position: relative;
+    font-family: Asap, sans-serif;
+    text-align: left;
+    padding-left: 2.5%;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+}
+
+.picture1, .picture2, .picture3 {
+    position: relative;
+    opacity: .70; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.picture1 {
+    background-image: url('img/coding1.jpeg');
+    min-height: 100%;
+}
+
+.picture2 {
+    background-image: url('img/technology1.jpeg');
+    min-height: 400px;
+}
+
+.picture3 {
+    background-image: url('img/building.jpeg');
+    min-height: 400px;
+}
+
+section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+#section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+#section-dark, #section-dark2 {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext .border.trans {
+    background-color: transparent;
+}
+
+@media(max-width:568px) {
+    .png1, .png2, .png3 {
+        background-attachment:scroll;
+    }
+}
+
+footer {
+    position: center;
+    top: 25%;
+    padding: 50px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#social-media {
+    float: center;
+    padding-top: 20px;
+}
+
+.social {
+    height: 30px;
+    width: 30px;
+}
+.social:hover {
+    color: #ccc;
+    transform: scale(1.2);
+}
+
+
+
+
+
