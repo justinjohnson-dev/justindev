@@ -42,6 +42,7 @@ body, html {
  #about:hover, 
  #contact:hover {
     color: black;
+    transform: scale(1.2);
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -89,8 +90,8 @@ body, html {
 }
 
 .picture1 {
-    background-image: url('img/coding1.jpeg');
-    min-height: 100%;
+    background-image: url('img/homepage.jpg');
+    min-height: 60%;
 }
 
 .picture2 {
@@ -131,7 +132,7 @@ section {
 
 .ptext .border {
     background-color: transparent;
-    color: black;
+    color: white;
     font-weight: bold;
     padding: 20px;
 }
