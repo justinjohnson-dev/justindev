@@ -19,9 +19,10 @@ body, html {
 }
   
 .navbar-brand {
-    font-size: 40px;
+    font-size: 30px;
     font-family: Asap, sans-serif;
     padding-top: 7%;
+    text-transform: uppercase;
 }
 
 #navbar {
@@ -34,6 +35,12 @@ body, html {
 }
 
 .navbar-default .navbar-brand:hover {
+    color: black;
+}
+
+#objective:hover,
+ #about:hover, 
+ #contact:hover {
     color: black;
 }
 
@@ -74,7 +81,7 @@ body, html {
 
 .picture1, .picture2, .picture3 {
     position: relative;
-    opacity: .70; 
+    opacity: .80; 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -123,19 +130,14 @@ section {
 }
 
 .ptext .border {
-    background-color: #111;
-    color: #fff;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
     padding: 20px;
 }
 
 .ptext .border.trans {
     background-color: transparent;
-}
-
-@media(max-width:568px) {
-    .png1, .png2, .png3 {
-        background-attachment:scroll;
-    }
 }
 
 footer {
