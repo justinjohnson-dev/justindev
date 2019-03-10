@@ -169,6 +169,9 @@ footer {
     .picture1, .picture1, .picture3 {
         background-attachment:scroll;
     }
+    .picture1 {
+        min-height: 80%;
+    }
     .border {
         font-size: 10px;
     }
