@@ -24,10 +24,6 @@ body, html {
     text-transform: uppercase;
 }
 
-#navbar {
-    font-family: Asap, sans-serif;
-}
-
 .navbar-default .navbar-brand {
     margin-top: 10px;
     color: white;
@@ -103,6 +99,12 @@ body, html {
     min-height: 400px;
 }
 
+#main-objective {
+    padding-bottom: 25px;
+    color: black;
+    text-transform: uppercase;
+}
+
 section {
     text-align: center;
     padding: 50px 80px;
@@ -111,6 +113,7 @@ section {
 #section-light {
     background-color: #f4f4f4;
     color: #666;
+    font-family: Asap, sans-serif;
 }
 
 #section-dark, #section-dark2 {
@@ -165,7 +168,7 @@ footer {
     transform: scale(1.2);
 }
 
-@media(max-width: 600px) {
+@media(max-width: 550px) {
     .picture1, .picture1, .picture3 {
         background-attachment:scroll;
     }
@@ -173,7 +176,8 @@ footer {
         min-height: 80%;
     }
     .border {
-        font-size: 10px;
+        font-size: 25px;
+        letter-spacing: 6px;
     }
 }
 
