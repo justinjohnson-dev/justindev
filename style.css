@@ -169,9 +169,6 @@ footer {
 }
 
 @media(max-width: 550px) {
-    .picture1, .picture1, .picture3 {
-        background-attachment:scroll;
-    }
     .picture1 {
         min-height: 80%;
     }
