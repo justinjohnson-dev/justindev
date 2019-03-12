@@ -162,7 +162,6 @@ footer {
 }
 
 #footer-copyright  {
-    position: center;
     padding: 30px;
     text-align: center;
     color: black;
@@ -181,7 +180,6 @@ footer {
 }
 
 #social-media {
-    float: center;
     padding-top: 20px;
 }
 
