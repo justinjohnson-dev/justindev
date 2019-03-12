@@ -79,21 +79,20 @@ body, html {
 
 .picture1, .picture2, .picture3 {
     position: relative;
-    opacity: .80; 
+    opacity: .80;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-
 .picture1 {
-    background-image: url('img/homepage.jpg');
-    min-height: 60%;
+    background-image: url('img/alone.jpg');
+    min-height: 80%;
 }
 
 .picture2 {
-    background-image: url('img/technology1.jpeg');
+    background-image: url('img/coding1.jpeg');
     min-height: 400px;
 }
 
@@ -204,7 +203,3 @@ footer {
         letter-spacing: 6px;
     }
 }
-
-
-
-
