@@ -44,11 +44,11 @@ section {
 
 #section-dark, #section-dark2 {
     background-color: #303438;
-    color: #666;
+    color: #fff;
     font-family: Asap, sans-serif;
 }
 
-.about-me {
+.about-me, .contact {
     padding-bottom: 25px;
     color: #f4f4f4;
     text-transform: uppercase;
@@ -81,14 +81,26 @@ section {
 }
 
 footer {
+    background-color: #f4f4f4;
+}
+
+#footer-copyright  {
     position: center;
-    top: 25%;
-    padding: 50px;
+    padding: 30px;
     text-align: center;
     color: black;
     font-size: 15px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+#tools {
+    text-align: center;
+    font-size: 15px;
+    font-family: indie flower, sans-serif;
+    font-weight: bold;
+    color: rgb(16, 26, 180);
+    padding-bottom: 30px;
 }
 
 #social-media {
@@ -117,8 +129,6 @@ footer {
         letter-spacing: 6px;
     }
 }
-
-
 
 
 
