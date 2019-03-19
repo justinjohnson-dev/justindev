@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
 body, html {
     height: 100%;
     margin: 0;
@@ -20,9 +21,9 @@ body, html {
 }
   
 .navbar-brand {
-    font-size: 26px;
-    font-family: Asap, sans-serif;
+    font-size: 30px;
     text-transform: uppercase;
+    font-family: Rubik, sans-serif;
 }
 
 .navbar-default .navbar-brand {
@@ -141,7 +142,7 @@ body, html {
     font-size: 20px;
     letter-spacing: 6px;
     text-transform: uppercase;
-    font-family: Asap, sans-serif;
+    font-family: Rubik, sans-serif;
 }
 
 .ptext .border {
