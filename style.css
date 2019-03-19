@@ -20,18 +20,18 @@ body, html {
 }
   
 .navbar-brand {
-    font-size: 30px;
+    font-size: 26px;
     font-family: Asap, sans-serif;
     text-transform: uppercase;
 }
 
 .navbar-default .navbar-brand {
     margin-top: 10px;
-    color: white;
+    color: black;
 }
 
 .navbar-default .navbar-brand:hover {
-    color: black;
+    color: whitesmoke;
 }
 
 #objective:hover,
@@ -87,7 +87,7 @@ body, html {
 }
 
 .picture1 {
-    background-image: url('img/alone.jpg');
+    background-image: url('img/alone.jpg ');
     min-height: 80%;
 }
 
@@ -107,7 +107,9 @@ body, html {
     text-transform: uppercase;
 }
 
-section {
+#section-light, 
+#section-dark, 
+#section-dark2 {
     text-align: center;
     padding: 50px 80px;
 }
@@ -118,7 +120,8 @@ section {
     font-family: Asap, sans-serif;
 }
 
-#section-dark, #section-dark2 {
+#section-dark, 
+#section-dark2 {
     background-color: #303438;
     color: #fff;
     font-family: Asap, sans-serif;
@@ -135,10 +138,10 @@ section {
     top: 50%;
     width: 100%;
     text-align: center;
-    color: black;
-    font-size: 27px;
-    letter-spacing: 8px;
+    font-size: 20px;
+    letter-spacing: 6px;
     text-transform: uppercase;
+    font-family: Asap, sans-serif;
 }
 
 .ptext .border {
@@ -146,10 +149,6 @@ section {
     color: white;
     font-weight: bold;
     padding: 20px;
-}
-
-.border {
-    font-family: indie flower, sans-serif;
 }
 
 .ptext .border.trans {
