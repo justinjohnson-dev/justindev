@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+#resume-photo {
+    width: 20px;
+    height: 20px;
+}
+
+#resume {
+    border: 2px dashed white;
+}
+
+#resume:hover {
+    color: black;
+}
+
+.navbar {
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+}
+  
+.navbar-brand {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: Rubik, sans-serif;
+}
+
+.navbar-default .navbar-brand {
+    margin-top: 10px;
+    color: black;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: whitesmoke;
+}
+
+#objective:hover,
+#about:hover, 
+#contact:hover {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    margin: 10px 5px 5px 5px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: black;
+}
+
+/* Past first section */
+
+.navbar.solid{
+    background-color: rgb(55, 150, 126);
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+}
+
+.navbar.solid .navbar-brand {
+    color: white;
+    transition: color 1s ease 0s;
+}
+
+.navbar.solid .navbar-nav > li > a {
+    color: white;
+    transition: color 1s ease 0s;
+}
+
+.picture1, .picture2, .picture3 {
+    position: relative;
+    opacity: .80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.picture1 {
+    background-image: url('../img/alone.jpg');
+    min-height: 80%;
+}
+
+.picture2 {
+    background-image: url('../img/coding1.jpeg');
+    min-height: 400px;
+}
+
+.picture3 {
+    background-image: url('../img/building.jpeg');
+    min-height: 400px;
+}
+
+#main-objective {
+    padding-bottom: 25px;
+    color: black;
+    text-transform: uppercase;
+}
+
+#section-light, 
+#section-dark, 
+#section-dark2 {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+#section-light {
+    background-color: #f4f4f4;
+    color: #666;
+    font-family: Asap, sans-serif;
+}
+
+#section-dark, 
+#section-dark2 {
+    background-color: #303438;
+    color: #fff;
+    font-family: Asap, sans-serif;
+}
+
+.about-me, .contact {
+    padding-bottom: 25px;
+    color: #f4f4f4;
+    text-transform: uppercase;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-family: Rubik, sans-serif;
+}
+
+.ptext .border {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.ptext .border.trans {
+    background-color: transparent;
+}
+
+footer {
+    background-color: #f4f4f4;
+}
+
+#footer-copyright  {
+    padding: 30px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#tools {
+    text-align: center;
+    font-size: 15px;
+    font-family: indie flower, sans-serif;
+    font-weight: bold;
+    color: rgb(16, 26, 180);
+    padding-bottom: 30px;
+}
+
+#social-media {
+    padding-top: 20px;
+}
+
+.social {
+    height: 30px;
+    width: 30px;
+}
+.social:hover {
+    color: #ccc;
+    transform: scale(1.2);
+}
+
+@media(max-width: 550px) {
+    .picture1, .picture2, .picture3 {
+        background-attachment: scroll;
+    }
+    .picture1 {
+        min-height: 80%;
+    }
+    .border {
+        font-size: 18px;
+        letter-spacing: 4px;
+    }
+    .navbar-brand {
+        font-size: 22px;
+    }
+}
