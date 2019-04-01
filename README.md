@@ -2,7 +2,7 @@
 
 https://justinjohnson-dev.github.io
 
-Personal webpage => As I learn more about programming and web development I will be updating my website transferring the new skills into the site!
+Personal webpage => As I learn more about web development I will be updating my website transferring the new skills into the site!
 
 *Using HTML - CSS - Bootstrap - JS*
 
