@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Oswald|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Dosis|Fjalla+One|Oswald|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+
 
 * {
     box-sizing: border-box;
@@ -92,6 +94,11 @@ html, body {
     height: 30px;
     width: 50px;
     margin: 10px 0px 10px 10px;
+}
+
+.row > .sidebar > ul > li > a{
+    padding: 0;
+    margin: 0;
 }
 
 .objective-title {
@@ -221,33 +228,41 @@ html, body {
     margin-top: 15px;
 }
 
-
-.side-icons {
-    font-size: 40px;
+.fab {
+    color: white;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    font-size: 30px;
 }
 
-.fa-tools {
-    font-size: 25px;
+.fab:hover {
+    left: 10px;
 }
 
-.fa-facebook {
-    color:  #3C5A99;
+.fa-facebook-f {
+    padding: 5px 15px 5px 15px;
+    background-color:  #3C5A99;
 }
 
-.fa-twitter-square {
-    color: #1DA1F2;
+.fa-twitter {
+    padding: 3px 7.5px 3px 7.5px;
+    background-color: #1DA1F2;
 }
 
 .fa-instagram {
-    color: salmon;
+    padding: 5px 9.5px 5px 9.5px;
+    background: linear-gradient(45deg, rgb(64,93,230), #833AB4 33%, #E1306C 66%, rgb(245,96,64));
 }
 
-.fa-linkedin {
-    color: #0077B5;
+.fa-linkedin-in {
+    padding: 5px 9.5px 5px 9.5px;
+    background-color: #0077B5;
 }
 
 .fa-github {
-    color: rgb(35, 40, 45);
+    padding: 5px 8px 5px 8px;
+    background-color: rgb(35, 40, 45);
 }
 
 .navbar {
@@ -277,20 +292,20 @@ html, body {
 .display-name {
     margin-left: 300px;
     text-align: left;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Wendy One', sans-serif;
 }
 
 @media screen and (max-width: 1550px) {
     .display-name {
         margin-left: 75px;
         text-align: left;
-        font-family: 'Rubik', sans-serif;
+        font-family: 'Wendy One', sans-serif;
     }
 }
 
 .title-name {
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Wendy One', sans-serif;
     margin-left: 250px;
 }
   
