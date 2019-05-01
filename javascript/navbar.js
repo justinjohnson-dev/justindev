@@ -7,5 +7,3 @@ $(document).ready(function() {
       }
     });
 });
-
-/* This is a TODO */
