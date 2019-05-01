@@ -3,11 +3,11 @@ var colours = ["red", "teal", "green", "orange", "navy"];
 var count = 1;
 
 setInterval(function(){    
-    $("span.keyword").fadeOut(400, function(){        
+    $("span.keyword").fadeOut(1200, function(){        
         $(this).html(keywords[count]).css("color", colours[count]);
         count++;        
         if(count == keywords.length)            
             count = 0;        
-        $(this).fadeIn(400);    
+        $(this).fadeIn(1200);    
     });
-}, 2000);
+}, 1000);
