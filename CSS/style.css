@@ -76,6 +76,13 @@ html, body {
     position: fixed;
 }
 
+@media screen and (max-width: 1550px) {
+    .left-side-bar {
+        margin-top: 30px;
+        position: fixed;
+    }
+}
+
 .social {
     height: 25px;
     width: 25px;
@@ -271,6 +278,14 @@ html, body {
     margin-left: 300px;
     text-align: left;
     font-family: 'Rubik', sans-serif;
+}
+
+@media screen and (max-width: 1550px) {
+    .display-name {
+        margin-left: 75px;
+        text-align: left;
+        font-family: 'Rubik', sans-serif;
+    }
 }
 
 .title-name {
