@@ -1,5 +1,5 @@
-var keywords = ["~ Software Engineering Student ~", "~ Pursuing Bachelors in Computer Science ~", "~ Computer Fanatic ~", "~ Ambitious Developer ~", "~ The Master Commander ~"];
-var colors = ["red", "teal", "green", "orange", "navy"];
+var keywords = ["~ Software Engineering Student ~", "~ Pursuing Bachelors in Computer Science ~", "~ Computer Fanatic ~", "~ Ambitious Developer ~"];
+var colors = ["red", "teal", "orange", "navy"];
 var count = 1;
 
 setInterval(function(){    
