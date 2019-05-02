@@ -213,8 +213,9 @@ nav > ul > li > a {
 }
 
 .main-container-styling {
+    font-family: 'Wendy One', sans-serif;
+    font-size: 30px;
     margin-bottom: 25px;
-    text-decoration: underline;
 }
 
 .row > .sidebar > ul > li > a{
