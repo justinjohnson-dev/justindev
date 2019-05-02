@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Rubik');
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Oswald|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Dosis|Fjalla+One|Oswald|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Wendy+One');
-
 
 * {
     box-sizing: border-box;
@@ -25,10 +22,6 @@ hr {
     width: 80%;
 }
 
-.side-style {
-    background-color: transparent;
-}
-
 html, body {
     margin: 0;
     padding: 0;
@@ -42,6 +35,11 @@ html, body {
     background-color: whitesmoke;
 }
 
+.italic-font {
+    font-size: 15px;
+    font-style: italic;
+}
+
 .display-block {
     display: block;
 }
@@ -52,6 +50,145 @@ html, body {
 
 .margin-left {
     margin-left: 68px;
+}
+
+.fab {
+    color: white;
+    position: relative;
+    top: 0;
+    font-size: 30px;
+}
+
+.fab:hover {
+    left: 10px;
+}
+
+.fa-facebook-f {
+    padding: 5px 15px 5px 15px;
+    background-color:  #3C5A99;
+}
+
+.fa-twitter {
+    padding: 3px 7.5px 3px 7.5px;
+    background-color: #1DA1F2;
+}
+
+.fa-instagram {
+    padding: 5px 9.5px 5px 9.5px;
+    background: linear-gradient(45deg, rgb(64,93,230), #833AB4 33%, #E1306C 66%, rgb(245,96,64));
+}
+
+.fa-linkedin-in {
+    padding: 5px 9.5px 5px 9.5px;
+    background-color: #0077B5;
+}
+
+.fa-github {
+    padding: 5px 8px 5px 8px;
+    background-color: rgb(35, 40, 45);
+}
+
+.fa-code, .fa-location-arrow, .fa-check {
+    color: green;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.background-color {
+    background-color: whitesmoke;
+}
+
+.heading-style {
+    border-radius: 25px;
+    color: black;
+    margin: 20px auto;
+    background-color: whitesmoke;
+}
+
+.jumbotron {
+    background-color: #325C74;
+    color: white;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.display-name {
+    margin-left: 300px;
+    text-align: left;
+    font-family: 'Wendy One', sans-serif;
+}
+
+@media screen and (max-width: 1550px) {
+    .display-name {
+        margin-left: 75px;
+        text-align: left;
+        font-family: 'Wendy One', sans-serif;
+    }
+}
+
+
+.navbar {
+    height: 80px;
+    border: none;
+}
+
+nav > ul > li > a {
+    color: black;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar-right {
+    text-transform: uppercase;
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.row > .sidebar > .nav-sidebar > li > a:hover {
+    background-color: transparent;
+}
+
+#objective:hover,
+#about:hover, 
+#contact:hover {
+    color: #325C74;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    margin: 10px 5px 5px 5px;
+}
+
+.navbar-default .navbar-nav > li > a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.main-containers {
+    width: 85%;
+}
+
+.side-style {
+    background-color: transparent;
+}
+
+.left-side-bar {
+    margin-top: 175px;
+    position: fixed;
+}
+
+@media screen and (max-width: 1550px) {
+    .left-side-bar {
+        margin-top: 30px;
+        position: fixed;
+    }
 }
 
 .css-percent {
@@ -73,27 +210,9 @@ html, body {
     transform: scale(1.1);
 }
 
-.left-side-bar {
-    margin-top: 175px;
-    position: fixed;
-}
-
-@media screen and (max-width: 1550px) {
-    .left-side-bar {
-        margin-top: 30px;
-        position: fixed;
-    }
-}
-
-.social {
-    height: 25px;
-    width: 25px;
-}
-
-.objective-arrow {
-    height: 30px;
-    width: 50px;
-    margin: 10px 0px 10px 10px;
+.main-container-styling {
+    margin-bottom: 25px;
+    text-decoration: underline;
 }
 
 .row > .sidebar > ul > li > a{
@@ -101,8 +220,18 @@ html, body {
     margin: 0;
 }
 
+.last-goal {
+    margin-bottom: 25px;
+}
+
 .objective-title {
+    margin-left: 0;
+    padding-left: 0;
     padding-top: 10px;
+}
+
+.skill-title {
+    font-weight: bold;
 }
 
 .left-column {
@@ -119,10 +248,6 @@ html, body {
     width: 80%;
 }
 
-.skill-title {
-    font-weight: bold;
-}
-
 .java-progress {
     width: 60%;
     background-color: green;
@@ -130,12 +255,12 @@ html, body {
 
 .database-progress {
     width: 40%;
-    background-color: #325C74;
+    background-color: orange;
 }
 
 .spring-progress {
     width: 40%;
-    background-color: #325C74;
+    background-color: orange;
 }
 
 .test-driven-progress {
@@ -182,35 +307,14 @@ html, body {
     margin-left: 10px;
 }
 
-.eduction-check {
-    height: 18px;
-    width: 18px;
-    margin-bottom: 10px;
-    margin-left: 40px;
+.location {
+    margin-top: 8px;
 }
 
-.education-title {
-    margin-left: 5px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.college-dates {
+.dates {
     margin-right: 125px;
     float: right;
-    color: grey;
-}
-
-.social:hover {
-    transform: scale(1.2);
-}
-
-.objective-arrow:hover, .eduction-check:hover {
-    transform: scale(1.1);
-}
-
-.main-container-styling {
-    margin-left: 12px;
+    color: darkslategray;
 }
 
 .left-column {
@@ -224,148 +328,36 @@ html, body {
     cursor: pointer;
 }
 
-.previous-college {
-    margin-top: 15px;
-}
-
-.fab {
-    color: white;
-    position: relative;
-    top: 0;
-    transition: top ease 0.5s;
-    font-size: 30px;
-}
-
-.fab:hover {
-    left: 10px;
-}
-
-.fa-facebook-f {
-    padding: 5px 15px 5px 15px;
-    background-color:  #3C5A99;
-}
-
-.fa-twitter {
-    padding: 3px 7.5px 3px 7.5px;
-    background-color: #1DA1F2;
-}
-
-.fa-instagram {
-    padding: 5px 9.5px 5px 9.5px;
-    background: linear-gradient(45deg, rgb(64,93,230), #833AB4 33%, #E1306C 66%, rgb(245,96,64));
-}
-
-.fa-linkedin-in {
-    padding: 5px 9.5px 5px 9.5px;
-    background-color: #0077B5;
-}
-
-.fa-github {
-    padding: 5px 8px 5px 8px;
-    background-color: rgb(35, 40, 45);
-}
-
-.navbar {
-    height: 80px;
-    border: none;
-    transition: green 1s ease 0s;
-}
-
-.jumbotron {
-    background-color: #325C74;
-    color: white;
-    margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.self-image {
-    margin-top: 10px;
-    margin-left: 450px;
-    margin-bottom: 20px;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: solid 2px #337ab7;
-}
-
-.display-name {
-    margin-left: 300px;
-    text-align: left;
-    font-family: 'Wendy One', sans-serif;
-}
-
-@media screen and (max-width: 1550px) {
-    .display-name {
-        margin-left: 75px;
-        text-align: left;
-        font-family: 'Wendy One', sans-serif;
-    }
-}
-
 .title-name {
     text-align: center;
     font-family: 'Wendy One', sans-serif;
     margin-left: 250px;
 }
-  
-.navbar-brand {
-    font-size: 28px;
-    text-transform: uppercase;
-    font-family: 'Rubik', sans-serif;
+
+.job-description {
+    width: 70%;
 }
 
-.navbar-right {
-    text-transform: uppercase;
+.positions {
+    margin-top: 30px;
 }
 
-.navbar-nav {
-    margin-right: 50px;
+.company-name {
+    font-size: 22px;
+    font-weight: bold;
 }
 
-.row > .sidebar > .nav-sidebar > li > a:hover {
-    background-color: transparent;
+.education-title {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-#objective:hover,
-#about:hover, 
-#contact:hover {
-    color: orangered;
-}
-
-.navbar.solid {
-    background-color: rgb(55, 150, 126);
-    transition: background-color 1s ease 0s;
-}
-
-.navbar-default .navbar-nav > li > a {
-    margin: 10px 5px 5px 5px;
-}
-
-.navbar-default .navbar-nav > li > a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-.main-containers {
-    width: 80%;
-}
-
-.background-color {
-    background-color: whitesmoke;
-}
-
-.heading-style {
-    border-radius: 25px;
-    color: black;
-    margin: 20px auto;
-    background-color: whitesmoke;
+.previous-college {
+    margin-top: 15px;
 }
 
 footer {
     background-color: #325C74;
-    /*background: linear-gradient(45deg, rgb(254, 197, 134), #fff 33%, #fff 66%, rgb(254, 197, 134));*/
-    border-top: 2px dashed 00688B;
 }
 
 .footer-copyright  {
