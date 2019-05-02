@@ -33,7 +33,7 @@ html, body {
     margin: 0;
     padding: 0;
     position: relative;
-    background-color: white;
+    background-color: #325C74;
 }
 
 .page-layout {
@@ -130,12 +130,12 @@ html, body {
 
 .database-progress {
     width: 40%;
-    background-color: orange;
+    background-color: #325C74;
 }
 
 .spring-progress {
     width: 40%;
-    background-color: orange;
+    background-color: #325C74;
 }
 
 .test-driven-progress {
@@ -272,8 +272,8 @@ html, body {
 }
 
 .jumbotron {
-    background-color: white;
-    color: rgb(51, 50, 50);
+    background-color: #325C74;
+    color: white;
     margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -363,15 +363,15 @@ html, body {
 }
 
 footer {
-    background-color: white;
+    background-color: #325C74;
     /*background: linear-gradient(45deg, rgb(254, 197, 134), #fff 33%, #fff 66%, rgb(254, 197, 134));*/
-    border-top: 2px dashed orange;
+    border-top: 2px dashed 00688B;
 }
 
 .footer-copyright  {
     padding: 30px;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 15px;
     margin-left: 425px;
     background-color: transparent;
@@ -382,7 +382,7 @@ footer {
     font-size: 15px;
     font-family: 'indie flower', sans-serif;
     font-weight: bold;
-    color: rgb(16, 26, 180);
+    color: white;
     padding-bottom: 30px;
     background-color: transparent;
 }
