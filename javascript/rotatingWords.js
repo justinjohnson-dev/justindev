@@ -1,5 +1,5 @@
 var keywords = ["~ Software Engineering Student ~", "~ Pursuing Bachelors in Computer Science ~", "~ Computer Fanatic ~", "~ Ambitious Developer ~"];
-var colors = ["white", "orange"];
+var colors = ["white"];
 var count = 1;
 
 setInterval(function(){    
@@ -10,4 +10,4 @@ setInterval(function(){
             count = 0;        
         $(this).fadeIn(500);    
     });
-}, 2200);
+}, 2200);                      
