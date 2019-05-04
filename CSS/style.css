@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Dosis|Fjalla+One|Oswald|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Wendy+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
     box-sizing: border-box;
@@ -213,7 +214,8 @@ nav > ul > li > a {
 }
 
 .main-container-styling {
-    font-family: 'Wendy One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     font-size: 30px;
     margin-bottom: 25px;
 }
@@ -282,7 +284,7 @@ nav > ul > li > a {
 }
 
 .git-progress {
-    width: 75%;
+    width: 60%;
     background-color: green;
 }
 
@@ -292,12 +294,12 @@ nav > ul > li > a {
 }
 
 .package-management-progress {
-    width: 75%;
+    width: 60%;
     background-color: green;
 }
 
 .algorithm-progress {
-    width: 80%;
+    width: 60%;
     background-color: green;
 }
 
