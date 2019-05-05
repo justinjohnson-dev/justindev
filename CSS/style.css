@@ -412,6 +412,15 @@ nav > ul > li > a {
     margin-left: 250px;
 }
 
+@media screen and (max-width: 1300px) {
+    .title-name {
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        margin-left: 200px;
+    }
+}
+
+
 .job-description {
     width: 70%;
 }
