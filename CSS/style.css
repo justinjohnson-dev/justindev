@@ -414,7 +414,6 @@ nav > ul > li > a {
 
 @media screen and (max-width: 1000px) {
     .title-name {
-        text-align: center;
         font-family: 'Rubik', sans-serif;
         margin-left: 100px;
     }
