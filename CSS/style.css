@@ -5,7 +5,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: Rubik, sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .keyword {
@@ -153,6 +153,13 @@ html, body {
     }
 }
 
+@media screen and (max-width: 1150px) {
+    .display-name {
+        margin-left: 40px;
+        text-align: left;
+        font-family: 'Rubik', sans-serif;
+    }
+}
 
 .navbar {
     height: 80px;
@@ -414,9 +421,8 @@ nav > ul > li > a {
 
 @media screen and (max-width: 1150px) {
     .title-name {
-        font-size: 20px;
+        font-size: 17px;
         font-family: 'Rubik', sans-serif;
-        margin-left: 200px;
     }
 }
 
