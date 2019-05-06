@@ -412,7 +412,7 @@ nav > ul > li > a {
     margin-left: 250px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1150px) {
     .title-name {
         font-size: 20px;
         font-family: 'Rubik', sans-serif;
