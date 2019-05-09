@@ -102,9 +102,16 @@ html, body {
     margin-right: 5px;
 }
 
+.second-arrow {
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 850px) {
     .fa-location-arrow {
+        position: absolute;
         margin-top: 12px;
+        left: 80px;
+        text-align: center;
     }
 
     .fa-code {
@@ -170,6 +177,15 @@ html, body {
         display: block;
         text-align: center;
         font-family: 'Rubik', sans-serif;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .wrapper {
+        min-height: 100%;
+        height: auto !important;
+        margin: 0 auto -30px;
+        padding: 0 0 30px 0px;   
     }
 }
 
@@ -289,7 +305,11 @@ nav > ul > li > a {
 
 @media screen and (max-width: 550px) {
     .first-goal, .last-goal {
-        display: inline;
+        display: inline-block;
+        text-align: left;
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 200px;
     }
 }
 
@@ -311,6 +331,7 @@ nav > ul > li > a {
 
 .skill-title {
     font-weight: bold;
+    text-align: left;
 }
 
 .left-column {
@@ -326,6 +347,7 @@ nav > ul > li > a {
 @media screen and (max-width: 550px) {
     .left-column {
         width: 100%;
+        text-align: center;
     }
 
     .right-column {
@@ -411,6 +433,26 @@ nav > ul > li > a {
     margin-right: 125px;
     float: right;
     color: darkslategray;
+}
+
+@media screen and (max-width: 550px) {
+    .dates {
+        display: inline;
+        margin:0;
+        padding: 0;
+    }
+
+    .location {
+        margin-top: 7px;
+    }
+
+    .mobile-title {
+        margin-left: 0;
+    }   
+    
+    .job-description {
+        width: 100%;
+    }
 }
 
 .left-column {
