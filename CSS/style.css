@@ -104,7 +104,11 @@ html, body {
 
 @media screen and (max-width: 850px) {
     .fa-location-arrow {
-        margin: 0;
+        margin-top: 12px;
+    }
+
+    .fa-code {
+        margin-left: 0;
     }
 }
 
@@ -221,7 +225,7 @@ nav > ul > li > a {
 
 @media screen and (max-width: 550px) {
     .left-side-bar {
-        margin-top: 125px; 
+        margin-top: 75px; 
     }
 }
 
@@ -266,8 +270,15 @@ nav > ul > li > a {
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         font-size: 30px;
-        margin-bottom: 25px;
+        margin-bottom: 5px;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .first-container-element {
+        margin-top: 0;
+        padding-top: 0;
     }
 }
 
@@ -312,8 +323,25 @@ nav > ul > li > a {
     float: right;
 }
 
+@media screen and (max-width: 550px) {
+    .left-column {
+        width: 100%;
+    }
+
+    .right-column {
+        width: 100%;
+    }
+}
+
 .progress {
     width: 80%;
+}
+
+@media screen and (max-width: 550px) {
+    .progress {
+        text-align: center;
+        width: 100%;
+    }
 }
 
 .java-progress {
@@ -396,6 +424,12 @@ nav > ul > li > a {
     cursor: pointer;
 }
 
+@media screen and (max-width: 550px) {
+    #software-projects {
+        text-align: center;
+    }
+}
+
 .project-one {
     margin-bottom: 20px;
 }
@@ -415,6 +449,28 @@ nav > ul > li > a {
     bottom: 60px;
 }
 
+@media screen and (max-width: 550px) {
+    .project-one {
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    
+    .project-two {
+        position: relative;
+        bottom: 10px;
+    }
+    
+    .project-three {
+        position: relative;
+        bottom: 15px;
+    }
+    
+    .project-four {
+        position: relative;
+        bottom: 20px;
+    }
+}
+
 .card-img-top {
     width: 100%;
     height: 160px;
@@ -427,6 +483,11 @@ nav > ul > li > a {
     margin-left: 10px;
 }
 
+.card-heading {
+    background-color: rgb(191, 194, 197);
+    padding-bottom: 5px;
+}
+
 @media screen and (max-width: 550px) {
     .project-two {
         margin-top: 10px;
@@ -435,11 +496,6 @@ nav > ul > li > a {
     .project-three, .project-four {
         margin-top: 30px;
     }
-}
-
-.card-heading {
-    background-color: rgb(191, 194, 197);
-    padding-bottom: 5px;
 }
 
 .card-title {
