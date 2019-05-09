@@ -26,10 +26,19 @@ html, body {
     background-color: #325C74;
 }
 
-.page-layout {
+.page-layout, header, footer {
     max-width: 1300px;
     margin: 0 auto;
     background-color: whitesmoke;
+} 
+
+@media screen and (max-width: 550px) {
+    .page-layout {
+        padding-top: 1px;
+        max-width: 100%;
+        margin: 0 auto;
+        background-color: whitesmoke;
+    }
 }
 
 .italic-font {
@@ -93,6 +102,12 @@ html, body {
     margin-right: 5px;
 }
 
+@media screen and (max-width: 850px) {
+    .fa-location-arrow {
+        margin: 0;
+    }
+}
+
 .fa-java {
     font-size: 22px;
 }
@@ -140,23 +155,16 @@ html, body {
 }
 
 .display-name {
-    margin-left: 300px;
+    margin-left: 10px;
     text-align: left;
     font-family: 'Rubik', sans-serif;
 }
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 850px) {
     .display-name {
-        margin-left: 75px;
-        text-align: left;
-        font-family: 'Rubik', sans-serif;
-    }
-}
-
-@media screen and (max-width: 1150px) {
-    .display-name {
-        margin-left: 40px;
-        text-align: left;
+        margin: 20px 0px 10px 0px;
+        display: block;
+        text-align: center;
         font-family: 'Rubik', sans-serif;
     }
 }
@@ -168,12 +176,6 @@ html, body {
 
 nav > ul > li > a {
     color: black;
-}
-
-.navbar-brand {
-    font-size: 28px;
-    text-transform: uppercase;
-    font-family: 'Rubik', sans-serif;
 }
 
 .navbar-right {
@@ -217,10 +219,9 @@ nav > ul > li > a {
     position: fixed;
 }
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 550px) {
     .left-side-bar {
-        margin-top: 30px;
-        position: fixed;
+        margin-top: 125px; 
     }
 }
 
@@ -239,6 +240,16 @@ nav > ul > li > a {
     height: 45px;
 }
 
+@media screen and (max-width: 550px) {
+    .logoImage {
+        position: absolute;
+        bottom: 15px;
+        margin-left: 8px;
+        width: 35px;
+        height: 35px;
+    }
+}
+
 .logoImage:hover {
     transform: scale(1.1);
 }
@@ -250,13 +261,35 @@ nav > ul > li > a {
     margin-bottom: 25px;
 }
 
+@media screen and (max-width: 550px) {
+    .main-container-styling {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+}
+
 .row > .sidebar > ul > li > a{
     padding: 0;
     margin: 0;
 }
 
+@media screen and (max-width: 550px) {
+    .first-goal, .last-goal {
+        display: inline;
+    }
+}
+
 .last-goal {
     margin-bottom: 25px;
+}
+
+@media screen and (max-width: 550px) {
+    .last-goal {
+        margin-bottom: 15px;
+    }
 }
 
 .objective-title {
@@ -394,6 +427,16 @@ nav > ul > li > a {
     margin-left: 10px;
 }
 
+@media screen and (max-width: 550px) {
+    .project-two {
+        margin-top: 10px;
+    }
+
+    .project-three, .project-four {
+        margin-top: 30px;
+    }
+}
+
 .card-heading {
     background-color: rgb(191, 194, 197);
     padding-bottom: 5px;
@@ -426,6 +469,14 @@ nav > ul > li > a {
     }
 }
 
+@media screen and (max-width: 550px) {
+    .title-name {
+        margin-left: 0;
+        display: block;
+        font-family: 'Rubik', sans-serif;
+    }
+}
+
 .job-description {
     width: 70%;
 }
@@ -450,19 +501,17 @@ nav > ul > li > a {
 
 footer {
     background-color: #325C74;
+    text-align: center;
 }
 
 .footer-copyright  {
     padding: 30px;
-    text-align: center;
     color: white;
     font-size: 15px;
-    margin-left: 425px;
     background-color: transparent;
 }
 
 .tools {
-    text-align: center;
     font-size: 15px;
     font-family: 'indie flower', sans-serif;
     font-weight: bold;
