@@ -116,6 +116,7 @@ html, body {
 
     .fa-code {
         margin-left: 0;
+        display: inline;
     }
 
     .fa-check {
@@ -455,8 +456,6 @@ nav > ul > li > a {
         padding: 0;
     }
 
-    
-
     .current-job-location,
     .helpertech-job-location {
         margin-top: 8px;
@@ -626,13 +625,6 @@ nav > ul > li > a {
 .company-name {
     font-size: 22px;
     font-weight: bold;
-}
-
-@media screen and (max-width: 550px) {
-    .company-name {
-        font-size: 21px;
-        font-weight: bold;
-    }
 }
 
 .education-title {
