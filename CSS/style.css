@@ -116,7 +116,7 @@ html, body {
 
     .fa-code {
         margin-left: 0;
-        display: inline;
+        font-size: 18px;
     }
 
     .fa-check {
