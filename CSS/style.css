@@ -115,7 +115,7 @@ html, body {
     }
 
     .fa-code {
-        margin-left: 0;
+        margin: 0;
         font-size: 18px;
     }
 
@@ -625,6 +625,13 @@ nav > ul > li > a {
 .company-name {
     font-size: 22px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+    .company-name {
+        font-size: 18px;
+        font-weight: bold;
+    }
 }
 
 .education-title {
