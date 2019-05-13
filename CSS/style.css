@@ -629,7 +629,7 @@ nav > ul > li > a {
 
 @media screen and (max-width: 550px) {
     .company-name {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bold;
     }
 }
