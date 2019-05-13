@@ -622,12 +622,6 @@ nav > ul > li > a {
     margin-top: 30px;
 }
 
-@media screen and (max-width: 550px) {
-    .job-experience {
-        margin-bottom: 8px;
-    }
-}
-
 .company-name {
     font-size: 22px;
     font-weight: bold;
