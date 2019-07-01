@@ -10,7 +10,7 @@ https://justinjohnson-dev.github.io
 Currently a sophomore at Concordia University Saint Paul
 ```
 #### Desktop Heading
-![image](https://user-images.githubusercontent.com/23105078/57591477-34050880-74f7-11e9-94d3-f27a12cf9a6c.png)
+<img width="1438" alt="Screen Shot 2019-06-30 at 7 50 15 PM" src="https://user-images.githubusercontent.com/23105078/60404628-62ef4080-9b70-11e9-9b49-f6fd7b872878.png">
 
 #### Mobile Heading
-![image](https://user-images.githubusercontent.com/23105078/57591406-d2dd3500-74f6-11e9-8229-e20eb787258f.png)
+<img width="303" alt="Screen Shot 2019-06-30 at 7 52 25 PM" src="https://user-images.githubusercontent.com/23105078/60404661-9fbb3780-9b70-11e9-94da-de9b97b224a2.png">
