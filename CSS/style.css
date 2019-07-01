@@ -373,17 +373,17 @@ nav > ul > li > a {
 
 .java-progress {
     width: 60%;
-    background-color: purple;
+    background-color: green;
 }
 
 .database-progress {
     width: 40%;
-    background-color: orange;
+    background-color: green;
 }
 
 .spring-progress {
     width: 40%;
-    background-color: orange;
+    background-color: green;
 }
 
 .test-driven-progress {
@@ -393,7 +393,7 @@ nav > ul > li > a {
 
 .python-progress {
     width: 60%;
-    background-color: purple;
+    background-color: green;
 }
 
 .html-progress {
@@ -403,7 +403,7 @@ nav > ul > li > a {
 
 .git-progress {
     width: 60%;
-    background-color: purple;
+    background-color: green;
 }
 
 .analysis-progress {
@@ -411,14 +411,14 @@ nav > ul > li > a {
     background-color: green;
 }
 
-.package-management-progress {
-    width: 60%;
-    background-color: purple;
+.communication-skills{
+    width: 80%;
+    background-color: green;
 }
 
 .algorithm-progress {
     width: 60%;
-    background-color: purple;
+    background-color: green;
 }
 
 .solving-progress {
