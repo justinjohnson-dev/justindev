@@ -1,4 +1,4 @@
-var keywords = ["~ Software Engineering Student ~", "~ Pursuing Bachelors in Computer Science ~", "~ Computer Fanatic ~", "~ Logical Thinker ~"];
+var keywords = ["~ Software Engineering Student ~", "~ Problem Solver ~", "~ Computer Fanatic ~", "~ Logical Thinker ~"];
 var colors = ["white"];
 var count = 1;
 
