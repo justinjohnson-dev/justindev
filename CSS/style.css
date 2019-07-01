@@ -216,8 +216,10 @@ nav > ul > li > a {
 }
 
 #objective:hover,
-#about:hover, 
-#contact:hover {
+#id-skills:hover, 
+#projects:hover,
+#id-experience:hover,
+#id-education:hover {
     color: #325C74;
 }
 
@@ -308,18 +310,19 @@ nav > ul > li > a {
     margin: 0;
 }
 
+.first-goal {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
 @media screen and (max-width: 550px) {
-    .first-goal, .last-goal {
+    .first-goal {
         display: inline-block;
         text-align: left;
         margin-left: 0px;
         margin-top: 10px;
         width: 200px;
     }
-}
-
-.last-goal {
-    margin-bottom: 25px;
 }
 
 @media screen and (max-width: 550px) {
@@ -386,17 +389,12 @@ nav > ul > li > a {
     background-color: green;
 }
 
-.test-driven-progress {
-    width: 80%;
-    background-color: green;
-}
-
 .python-progress {
     width: 60%;
     background-color: green;
 }
 
-.html-progress {
+.webdevelopment{
     width: 80%;
     background-color: green;
 }
@@ -406,7 +404,7 @@ nav > ul > li > a {
     background-color: green;
 }
 
-.analysis-progress {
+.agile {
     width: 80%;
     background-color: green;
 }
@@ -482,6 +480,11 @@ nav > ul > li > a {
     .mobile-title {
         margin-left: 0;
     }   
+
+    .mobile-left {
+        float: left;
+        margin-bottom: 5px
+    }
     
     .job-description {
         width: 100%;
