@@ -288,6 +288,18 @@ nav > ul > li > a {
     margin-bottom: 25px;
 }
 
+.methodology-container-styling {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 500px;
+}
+
+.tool-style {
+    padding: 0px;
+    margin: 15px 0px 25px 0px;
+}
+
 @media screen and (max-width: 550px) {
     .main-container-styling {
         font-family: 'Roboto', sans-serif;
@@ -409,13 +421,8 @@ nav > ul > li > a {
     background-color: green;
 }
 
-.communication-skills{
+.communication-skills {
     width: 80%;
-    background-color: green;
-}
-
-.algorithm-progress {
-    width: 60%;
     background-color: green;
 }
 
@@ -426,6 +433,21 @@ nav > ul > li > a {
 
 .percentages {
     margin-left: 10px;
+}
+
+.visual-studio-style { 
+    width: 75%;
+    background-color: green;
+}
+
+.intellij-style {
+    width: 75%;
+    background-color: green;
+}
+
+.vscode-style {
+    width: 75%;
+    background-color: green;
 }
 
 .location {
