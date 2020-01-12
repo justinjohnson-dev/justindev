@@ -2,7 +2,7 @@
   "name": "justin-dev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://justinjohnson-dev.github.io/justinjohnson-dev.github.io",
+  "homepage": "https://justinjohnson-dev.github.io/justinjohnson-dev",
   
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
