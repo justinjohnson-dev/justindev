@@ -1,5 +1,5 @@
 {
-  "name": "my-fullstack-app",
+  "name": "justindev",
   "version": "1.0.0",
   "description": "App for a react front end and express backend",
   "main": "server.js",
