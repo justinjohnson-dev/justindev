@@ -1,44 +1,31 @@
 {
-  "name": "justin-dev",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "http://justinjohnson-dev.github.io/justindev",
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "firebase": "^7.6.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
-    "recompose": "^0.30.0",
-    "yarn": "^1.21.1"
-  },
+  "name": "my-fullstack-app",
+  "version": "1.0.0",
+  "description": "App for a react front end and express backend",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
-    "eject": "react-scripts eject"
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Justin Johnson",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.1.0",
+    "cool-ascii-faces": "^1.3.4",
+    "express": "^4.17.1",
+    "material-ui": "^0.20.2",
+    "mongoose": "^5.9.4",
+    "react-global-configuration": "^1.4.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-tap-event-plugin": "^3.0.3"
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "nodemon": "^2.0.2"
   }
 }
