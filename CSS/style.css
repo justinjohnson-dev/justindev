@@ -1,0 +1,688 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.keyword {
+    font-size: 25px;
+}
+
+hr {
+    height: 3px;
+    border-radius: 45%;
+    background-color: gray;
+    width: 80%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #325C74;
+}
+
+.page-layout, header, footer {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+} 
+
+@media screen and (max-width: 550px) {
+    .page-layout {
+        padding-top: 1px;
+        max-width: 100%;
+        margin: 0 auto;
+        background-color: whitesmoke;
+    }
+}
+
+.italic-font {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline {
+    display: inline-block;
+}
+
+.margin-left {
+    margin-left: 68px;
+}
+
+/* font awesome icons */
+
+.fab {
+    color: white;
+    position: relative;
+    top: 0;
+    font-size: 30px;
+}
+
+.social-icon:hover {
+    left: 10px;
+}
+
+.fa-facebook-f {
+    padding: 5px 15px 5px 15px;
+    background-color:  #3C5A99;
+}
+
+.fa-twitter {
+    padding: 3px 7.5px 3px 7.5px;
+    background-color: #1DA1F2;
+}
+
+.fa-instagram {
+    padding: 5px 9.5px 5px 9.5px;
+    background: linear-gradient(45deg, rgb(64,93,230), #833AB4 33%, #E1306C 66%, rgb(245,96,64));
+}
+
+.fa-linkedin-in {
+    padding: 5px 9.5px 5px 9.5px;
+    background-color: #0077B5;
+}
+
+.fa-github {
+    padding: 5px 8px 5px 8px;
+    background-color: rgb(35, 40, 45);
+}
+
+.fa-code, .fa-location-arrow, .fa-check {
+    color: green;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.second-arrow {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 850px) {
+    .fa-location-arrow {
+        position: absolute;
+        margin-top: 12px;
+        left: 80px;
+        text-align: center;
+    }
+
+    .fa-code {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .fa-check {
+        margin: 0;
+    }
+}
+
+.fa-java {
+    font-size: 22px;
+}
+
+.fa-python {
+    font-size: 22px;
+}
+
+.fa-sort {
+    font-size: 180px;
+}
+
+.fa-pencil-ruler {
+    font-size: 130px;
+    padding: 25px;
+}
+
+.fa-dollar-sign {
+    font-size: 130px;
+    padding: 25px;
+}
+
+.fa-coins {
+    font-size: 130px;
+    padding: 25px;
+}
+
+.background-color {
+    background-color: whitesmoke;
+}
+
+.heading-style {
+    border-radius: 25px;
+    color: black;
+    margin: 20px auto;
+    background-color: whitesmoke;
+}
+
+.jumbotron {
+    background-color: #325C74;
+    color: white;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.display-name {
+    margin-left: 10px;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+}
+
+@media screen and (max-width: 850px) {
+    .display-name {
+        margin: 20px 0px 10px 0px;
+        display: block;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .wrapper {
+        min-height: 100%;
+        height: auto !important;
+        margin: 0 auto -30px;
+        padding: 0 0 30px 0px;   
+    }
+}
+
+.navbar {
+    height: 80px;
+    border: none;
+}
+
+nav > ul > li > a {
+    color: black;
+}
+
+.navbar-right {
+    text-transform: uppercase;
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.row > .sidebar > .nav-sidebar > li > a:hover {
+    background-color: transparent;
+}
+
+#objective:hover,
+#id-skills:hover, 
+#projects:hover,
+#id-experience:hover,
+#id-education:hover {
+    color: #325C74;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    margin: 10px 5px 5px 5px;
+}
+
+.navbar-default .navbar-nav > li > a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.main-containers {
+    width: 85%;
+}
+
+.side-style {
+    background-color: transparent;
+}
+
+.left-side-bar {
+    margin-top: 175px;
+    position: fixed;
+}
+
+@media screen and (max-width: 550px) {
+    .left-side-bar {
+        margin-top: 75px; 
+    }
+}
+
+.css-percent {
+    width: 20%;
+}
+
+.padding-nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logoImage {
+    margin-left: 50px;
+    width: 45px;
+    height: 45px;
+}
+
+@media screen and (max-width: 550px) {
+    .logoImage {
+        position: absolute;
+        bottom: 15px;
+        margin-left: 8px;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.logoImage:hover {
+    transform: scale(1.1);
+}
+
+.main-container-styling {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 550px) {
+    .main-container-styling {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .first-container-element {
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+.row > .sidebar > ul > li > a{
+    padding: 0;
+    margin: 0;
+}
+
+.first-goal {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 550px) {
+    .first-goal {
+        display: inline-block;
+        text-align: left;
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .last-goal {
+        margin-bottom: 15px;
+    }
+}
+
+.objective-title {
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.skill-title {
+    font-weight: bold;
+    text-align: left;
+}
+
+.left-column {
+    width: 50%;
+    float: left;
+}
+
+.right-column {
+    width: 50%;
+    float: right;
+}
+
+@media screen and (max-width: 550px) {
+    .left-column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-column {
+        width: 100%;
+    }
+}
+
+.progress {
+    width: 80%;
+}
+
+@media screen and (max-width: 550px) {
+    .progress {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.java-progress {
+    width: 60%;
+    background-color: green;
+}
+
+.database-progress {
+    width: 40%;
+    background-color: green;
+}
+
+.spring-progress {
+    width: 40%;
+    background-color: green;
+}
+
+.python-progress {
+    width: 60%;
+    background-color: green;
+}
+
+.webdevelopment{
+    width: 80%;
+    background-color: green;
+}
+
+.git-progress {
+    width: 60%;
+    background-color: green;
+}
+
+.agile {
+    width: 80%;
+    background-color: green;
+}
+
+.communication-skills{
+    width: 80%;
+    background-color: green;
+}
+
+.algorithm-progress {
+    width: 60%;
+    background-color: green;
+}
+
+.solving-progress {
+    width: 80%;
+    background-color: green;
+}
+
+.percentages {
+    margin-left: 10px;
+}
+
+.location {
+    margin-top: 8px;
+    margin-right: 125px;
+    float: right;
+    color: darkslategray;
+}
+
+.dates {
+    margin-right: 125px;
+    float: right;
+    color: darkslategray;
+}
+
+@media screen and (max-width: 550px) {
+    .dates {
+        margin:0;
+        padding: 0;
+        display: block;
+        float: left;
+    }
+
+    .location {
+        margin: 0;
+        padding: 0;
+    }
+
+    .current-job-location,
+    .helpertech-job-location {
+        margin-top: 5px;
+    }
+
+    .job-description {
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    .williams-job-title {
+        float: left;
+        margin: 0;
+    }
+
+    .williams-job-dates {
+        margin: 10px 80px 10px 0px;
+    }
+
+    .helpertech-job-title {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .mobile-title {
+        margin-left: 0;
+    }   
+
+    .mobile-left {
+        float: left;
+        margin-bottom: 5px
+    }
+    
+    .job-description {
+        width: 100%;
+    }
+}
+
+.left-column {
+    list-style: none;
+}
+
+.range-style {
+    width: 25px;
+    height: 25px;
+    background: rgb(1, 1, 107);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+    #software-projects {
+        text-align: center;
+    }
+}
+
+.project-one {
+    margin-bottom: 20px;
+}
+
+.project-two {
+    position: relative;
+    bottom: 20px;
+}
+
+.project-three {
+    position: relative;
+    bottom: 40px;
+}
+
+.project-four {
+    position: relative;
+    bottom: 60px;
+}
+
+@media screen and (max-width: 550px) {
+    .project-one {
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    
+    .project-two {
+        position: relative;
+        bottom: 10px;
+    }
+    
+    .project-three {
+        position: relative;
+        bottom: 15px;
+    }
+    
+    .project-four {
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+.card-img-top {
+    width: 100%;
+    height: 160px;
+}
+
+.card {
+    text-align: center;
+    width: 250px;
+    border: 1px black solid;
+    margin-left: 10px;
+}
+
+.card-heading {
+    background-color: rgb(191, 194, 197);
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 550px) {
+    .project-two {
+        margin-top: 10px;
+    }
+
+    .project-three, .project-four {
+        margin-top: 30px;
+    }
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    padding: 10px;
+    text-align: left;
+}
+
+.card-footer {
+    padding: 10px;
+    border-top: .5px #333 solid;
+}
+
+.title-name {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 250px;
+}
+
+@media screen and (max-width: 1150px) {
+    .title-name {
+        font-size: 17px;
+        font-family: 'Rubik', sans-serif;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .title-name {
+        margin-left: 0;
+        display: block;
+        font-family: 'Rubik', sans-serif;
+    }
+}
+
+.job-description {
+    width: 70%;
+}
+
+@media screen and (max-width: 550px) {
+    .job-description {
+        width: 100%;
+    }
+}
+
+.positions {
+    margin-top: 30px;
+}
+
+.company-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+    .company-name {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.education-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+    .bachelors-type {
+        margin: 5px 0px 5px 0px;
+        display: inline-block;
+    }
+
+    .gpa-grade {
+        margin: 0;
+    }
+}
+
+.previous-college {
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #325C74;
+    text-align: center;
+}
+
+.footer-copyright  {
+    padding: 30px;
+    color: white;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.tools {
+    font-size: 15px;
+    font-family: 'indie flower', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 30px;
+    background-color: transparent;
+}
+
+.tools-used {
+    height: 30px;
+    width: 30px;
+}
+
+.tools-used:hover {
+    transform: scale(1.2);
+}

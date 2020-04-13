@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/authentication.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <div id="login_div" class="main-div">
+        <i class="fas fa-tools"></i>
+        <h3>Site is currently locked while under construction...</h3>
+        <i class="fas fa-tools"></i>
+        <!-- <input type="email" placeholder="Email..." id="email_field" /> -->
+        <input type="password" placeholder="Developer Password.." id="password_field" />
+        <button onclick="login()">Login to Account</button>
+    </div>       
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCID7TuJXNJKvGmsv5wXgneJPvknnvAbn8",
+    authDomain: "personal-webapp-188d4.firebaseapp.com",
+    databaseURL: "https://personal-webapp-188d4.firebaseio.com",
+    projectId: "personal-webapp-188d4",
+    storageBucket: "personal-webapp-188d4.appspot.com",
+    messagingSenderId: "1087028077194",
+    appId: "1:1087028077194:web:32020a5d127e47692b0373",
+    measurementId: "G-2RRY3LGETX"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script src="Javascript/auth.js"></script>
+
+</body>
+</html>
