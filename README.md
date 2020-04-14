@@ -1,6 +1,6 @@
 # justinjohnson-dev.github.io
 
-https://justinjohnson-dev.github.io
+https://justinjohnson-dev.github.io/justindev/
 
 ### Personal webpage => As I learn more about web development I will be updating my website transferring the new skills into the site!
 
