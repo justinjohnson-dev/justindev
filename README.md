@@ -1,4 +1,4 @@
-# justinjohnson-dev.github.io
+# justinjohnson-dev.github.io/justindev/
 
 https://justinjohnson-dev.github.io/justindev/
 
